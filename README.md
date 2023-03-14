@@ -1,1 +1,1 @@
-# alantheprogrammer
+# Rotary Encoder (KY-040)
