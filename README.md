@@ -1,7 +1,6 @@
 # Rotary Encoder (KY-040)
 ![](https://github.com/Alan16263/alantheprogrammer/blob/main/codificador-rotatorio-ky-040.jpg)
 
-
 El Módulo KY-040 es un codificador incremental con dos salidas levemente desfasadas, gracias a esto, veremos que se puede saber en que dirección estamos girando el eje.
 
 Pines del codificador rotatorio KY-040
@@ -40,3 +39,4 @@ while True:
      if SW.value() == True and switch_presionado:
          switch_presionado = False
  ```
+ Codigo proporcionado por @ComputadorasySensores 
