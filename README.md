@@ -39,4 +39,4 @@ while True:
      if SW.value() == True and switch_presionado:
          switch_presionado = False
  ```
- Codigo proporcionado por @mentionComputadorasySensores 
+ Codigo proporcionado por @mention ComputadorasySensores 
