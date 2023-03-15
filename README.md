@@ -10,3 +10,33 @@ Un encoder rotativo tiene un número fijo de posiciones por revolución. El KY-4
 En los codificadores incrementales (o de cuadratura) como este dispositivo, para saber en qué posición se encuentra, es necesario recurrir al software.
 
 Su funcionamiento es más sencillo de lo que parece: el módulo genera señales digitales sobre los pines A y B. Señales que estarán en nivel alto y que conforme vayamos girando el eje,y en función de hacia qué lado lo giremos, una de esas señales cambiará de estado antes que la otra. Arduino es capaz de detectar estas señales.
+
+
+```micropython
+from machine import Pin
+from time import sleep
+
+SW = Pin(15, Pin.IN, Pin.PULL_UP)
+DT = Pin(14, Pin.IN)      # encoder sin módulo Pin(14, Pin.IN, Pin.PULL_UP)
+CLK  = Pin(13, Pin.IN)    # encoder sin módulo Pin(13, Pin.IN, Pin.PULL_UP)
+
+valor_anterior = True
+switch_presionado = False
+
+while True:
+     if valor_anterior != CLK.value():
+         if CLK.value() == False:
+             if DT.value() == False:
+                 print("horario")
+                 sleep(0.2)
+             else:
+                 print("antihorario")
+                 sleep(0.2)
+         valor_anterior = CLK.value()   
+
+     if SW.value() == False and not switch_presionado:
+         print("SW presionado") 
+         switch_presionado = True
+     if SW.value() == True and switch_presionado:
+         switch_presionado = False
+ ```
