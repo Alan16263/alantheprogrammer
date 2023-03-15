@@ -10,6 +10,7 @@ En los codificadores incrementales (o de cuadratura) como este dispositivo, para
 
 Su funcionamiento es más sencillo de lo que parece: el módulo genera señales digitales sobre los pines A y B. Señales que estarán en nivel alto y que conforme vayamos girando el eje,y en función de hacia qué lado lo giremos, una de esas señales cambiará de estado antes que la otra. Arduino es capaz de detectar estas señales.
 
+*En este código se muestra el sentido de giro horario / antihorario y si se presionó el switch.*
 
 ```python
 from machine import Pin
