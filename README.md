@@ -1,8 +1,7 @@
 # Rotary Encoder (KY-040)
 ![Image text](https://github.com/Alan16263/alantheprogrammer/blob/main/codificador-rotatorio-ky-040.jpg)
 
-
-El Módulo KY-040 es un codificador incremental con dos salidas levemente desfasadas, gracias a esto, veremos que se puede saber en que dirección estamos girando el eje.
+##El Módulo KY-040 es un codificador incremental con dos salidas levemente desfasadas, gracias a esto, veremos que se puede saber en que dirección estamos girando el eje.
 
 Pines del codificador rotatorio KY-040
 Un encoder rotativo tiene un número fijo de posiciones por revolución. El KY-40 tiene treinta, estas posiciones son marcadas por clicks conforme se va girando el encoder. Además, posee un pulsador interno.
