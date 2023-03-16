@@ -1,3 +1,4 @@
+
 # Rotary Encoder (KY-040)
 ![Image text](https://github.com/Alan16263/alantheprogrammer/blob/main/codificador-rotatorio-ky-040.jpg)
 
@@ -42,4 +43,5 @@ while True:
      if SW.value() == True and switch_presionado:
          switch_presionado = False
  ```
+
 ![Ejemplo del programa](https://github.com/Alan16263/alantheprogrammer/blob/main/Captura%20de%20pantalla%202023-03-15%20140739.gif)
