@@ -17,7 +17,7 @@ Este Encoder rotatorio es ampliamente utilizado en el control de motores paso a 
 
 ## Características:
 
-Tipo: Encoder rotatorio incremental
+- Tipo: Encoder rotatorio incremental
 - Voltaje de alimentación: 5v
 - Corriente: 10 mA
 - Ciclos por revolución 30
