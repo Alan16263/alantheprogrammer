@@ -18,12 +18,12 @@ Este Encoder rotatorio es ampliamente utilizado en el control de motores paso a 
 ## Características:
 
 Tipo: Encoder rotatorio incremental
--Voltaje de alimentación: 5v
--Corriente: 10 mA
--Ciclos por revolución 30
--Pulsos por revolución: 20
--Dimensiones: 20 x 30 x 30 mm
--Peso: 10g
+- Voltaje de alimentación: 5v
+- Corriente: 10 mA
+- Ciclos por revolución 30
+- Pulsos por revolución: 20
+- Dimensiones: 20 x 30 x 30 mm
+- Peso: 10g
 
 ## Ejemplo en codigo
 *En este código se muestra el sentido de giro horario / antihorario y si se presionó el switch.*
