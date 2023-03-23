@@ -15,6 +15,16 @@ Su funcionamiento es más sencillo de lo que parece: el módulo genera señales 
 ## ¿Para que sirve el KY-040?
 Este Encoder rotatorio es ampliamente utilizado en el control de motores paso a paso, servomotores, control de potenciómetros digitales, controles de máquinas industriales tales como los husillos de tornos y fresadoras CNC, brazos robóticos, controles de instrumentos electrónicos (diales) y hasta es posible verlos todavía en los viejos ratones de computadoras o en algunos TrackBall.
 
+## Características:
+
+Tipo: Encoder rotatorio incremental
+-Voltaje de alimentación: 5v
+-Corriente: 10 mA
+-Ciclos por revolución 30
+-Pulsos por revolución: 20
+-Dimensiones: 20 x 30 x 30 mm
+-Peso: 10g
+
 ## Ejemplo en codigo
 *En este código se muestra el sentido de giro horario / antihorario y si se presionó el switch.*
 
