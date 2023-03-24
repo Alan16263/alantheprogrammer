@@ -1,6 +1,6 @@
 
 # Rotary Encoder (KY-040)
-![Image text](https://th.bing.com/th/id/R.f71b7bf0dba9210bfb8fa93290bb5d8e?rik=S2AUmiOrekcKKQ&pid=ImgRaw&r=0)
+![Image text](https://uelectronics.com/wp-content/uploads/2017/06/AR0056-KY-040-V10-500x500.jpg)
 
 ## Que es ?
 El Módulo KY-040 es un codificador incremental con dos salidas levemente desfasadas, gracias a esto, veremos que se puede saber en que dirección estamos girando el eje.
